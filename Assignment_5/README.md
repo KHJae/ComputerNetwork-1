@@ -11,8 +11,9 @@
 :----|:----|:----
 Synchronous : 동기|Read/Write | Read/Write(Polling)
 Asynchronous : 비동기 |I/O Multiplexing(select/Poll)| Asynchronous I/O
-> ### Result
 
+> ### Result : 총 3개의 클라이언트로 실습, 서버는 클라이언트가 전송한 문자열을 뒤집어 전송
+![not_use_join()](https://user-images.githubusercontent.com/48250660/55732521-160b3a80-5a57-11e9-9d32-178a13ab5890.png)
 
 
 ## thread.join() : 다른 스레드가 처리될때까지 기다리게함 
