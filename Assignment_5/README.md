@@ -16,7 +16,7 @@ Asynchronous : 비동기 |I/O Multiplexing(select/Poll)| Asynchronous I/O
 ![not_use_join()](https://user-images.githubusercontent.com/48250660/55732521-160b3a80-5a57-11e9-9d32-178a13ab5890.png)
 
 
-## thread.join() : 다른 스레드가 처리될때까지 기다리게함 
+## thread.join() : 한 스레드가 처리될때까지 다른 스레드를 대기게 하는 기능 
 > ### Result : 총 3개의 클라이언트로 실습, 위 클라이언트부터 차례대로 서버접속 후 2,3번째 클라이언트 문자열 전송 
 ![server_client(before input)](https://user-images.githubusercontent.com/48250660/55671608-c4cf3f80-58cc-11e9-8c7d-346f2d8bd0ef.png)
 
