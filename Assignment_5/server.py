@@ -31,6 +31,6 @@ if __name__ == '__main__':
         # 여기에 socket.accept 후 리턴받은 클라이언트 소켓으로 스레드를 생성하는 코드 작성
         my_thread = threading.Thread(target = socket_handler, args = (conn,))
         my_thread.start() 
-        #my_thread.join()
+        my_thread.join()
     server.close()
     
