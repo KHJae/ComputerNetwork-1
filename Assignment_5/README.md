@@ -11,7 +11,11 @@
 :----|:----|:----
 Synchronous : 동기|Read/Write | Read/Write(Polling)
 Asynchronous : 비동기 |I/O Multiplexing(select/Poll)| Asynchronous I/O
+> ### Result
 
+
+
+## thread.join() : 다른 스레드가 처리될때까지 기다리게함 
 > ### Result : 총 3개의 클라이언트로 실습, 위 클라이언트부터 차례대로 서버접속 후 2,3번째 클라이언트 문자열 전송 
 ![server_client(before input)](https://user-images.githubusercontent.com/48250660/55671608-c4cf3f80-58cc-11e9-8c7d-346f2d8bd0ef.png)
 
